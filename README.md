@@ -31,8 +31,8 @@ Sebelum menjalankan script ini, pastikan sistem kamu memiliki:
 1. **Clone repositori ini:**
 
    ```bash
-   git clone [https://github.com/username-kamu/hinakoi-transcriber.git](https://github.com/username-kamu/hinakoi-transcriber.git)
-   cd hinakoi-transcriber
+   git clone https://github.com/yusufadji/hinakoi-ocr-monitor-windows.git
+   cd hinakoi-ocr-monitor-windows
    ```
 
 2. **Install _dependencies_ dasar:**
