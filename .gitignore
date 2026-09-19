@@ -1,2 +1,8 @@
 .venv
+.agents
 transcript
+raw
+revised
+tests
+__pycache__/
+*.pyc

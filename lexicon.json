@@ -1,0 +1,187 @@
+{
+  "regex_replacements": [
+    {
+      "pattern": "[姿翠やれ]の先[糞華肇鼻章筆]",
+      "replacement": "傘の先輩",
+      "description": "Perbaikan kesalahan OCR judul/julukan 傘の先輩"
+    },
+    {
+      "pattern": "[姿翠やれ]の先輩",
+      "replacement": "傘の先輩",
+      "description": "Perbaikan kanji 傘 yang salah terbaca"
+    },
+    {
+      "pattern": "傘の先[糞華肇鼻章筆]",
+      "replacement": "傘の先輩",
+      "description": "Perbaikan kanji 輩 pada 傘の先輩"
+    },
+    {
+      "pattern": "([後先])[糞華肇鼻章筆]",
+      "replacement": "\\g<1>輩",
+      "description": "Perbaikan kanji 輩 pada 先輩 atau 後輩"
+    },
+    {
+      "pattern": "(?<![礼法式内律])儀(?=[にはのをがとも]|としては|にとっては)",
+      "replacement": "僕",
+      "description": "Perbaikan kanji 儀 menjadi 僕 untuk subjek dan partikel"
+    },
+    {
+      "pattern": "(?<![礼法式内律])儀(?=[見て言思])",
+      "replacement": "僕",
+      "description": "Perbaikan kanji 儀を見て/言って/思って menjadi 僕"
+    },
+    {
+      "pattern": "儀の名前",
+      "replacement": "僕の名前",
+      "description": "Perbaikan kanji 僕の名前"
+    },
+    {
+      "pattern": "儀の[？\\?]",
+      "replacement": "僕の？",
+      "description": "Perbaikan kanji 僕の？"
+    },
+    {
+      "pattern": "あの卒が",
+      "replacement": "あの傘が",
+      "description": "Perbaikan kanji 傘"
+    },
+    {
+      "pattern": "卒が似合う",
+      "replacement": "傘が似合う",
+      "description": "Perbaikan kanji 傘"
+    },
+    {
+      "pattern": "亜然",
+      "replacement": "唖然",
+      "description": "Perbaikan kanji 唖然"
+    },
+    {
+      "pattern": "合み笑い",
+      "replacement": "含み笑い",
+      "description": "Perbaikan kanji 含み笑い"
+    },
+    {
+      "pattern": "天真[燭爛][渥漫]",
+      "replacement": "天真爛漫",
+      "description": "Perbaikan yojijukugo 天真爛漫"
+    },
+    {
+      "pattern": "小首を[順頃]げる",
+      "replacement": "小首を傾げる",
+      "description": "Perbaikan idiom 小首を傾げる"
+    },
+    {
+      "pattern": "経績",
+      "replacement": "経緯",
+      "description": "Perbaikan kanji 経緯"
+    },
+    {
+      "pattern": "どう[ぃい]う",
+      "replacement": "どういう",
+      "description": "Perbaikan kana どういう"
+    },
+    {
+      "pattern": "因ったら",
+      "replacement": "困ったら",
+      "description": "Perbaikan kanji 困ったら"
+    },
+    {
+      "pattern": "ぽつりと[盛呟]いた",
+      "replacement": "ぽつりと呟いた",
+      "description": "Perbaikan kanji ぽつりと呟いた"
+    },
+    {
+      "pattern": "放課後=",
+      "replacement": "放課後。",
+      "description": "Perbaikan tanda baca 放課後"
+    },
+    {
+      "pattern": "厳下",
+      "replacement": "廊下",
+      "description": "Perbaikan kanji 廊下"
+    },
+    {
+      "pattern": "咲った日",
+      "replacement": "喋った日",
+      "description": "Perbaikan kanji 喋った"
+    },
+    {
+      "pattern": "ちゃんと咲った",
+      "replacement": "ちゃんと喋った",
+      "description": "Perbaikan kanji 喋った"
+    },
+    {
+      "pattern": "証生日",
+      "replacement": "誕生日",
+      "description": "Perbaikan kanji 誕生日"
+    },
+    {
+      "pattern": "唯日の日付|旺日の日付",
+      "replacement": "昨日の日付",
+      "description": "Perbaikan kanji 昨日"
+    },
+    {
+      "pattern": "唯日の先輩|旺日の先輩|唯日の先[肇鼻]|旺日の先[肇鼻]",
+      "replacement": "昨日の先輩",
+      "description": "Perbaikan 昨日 dan 先輩"
+    },
+    {
+      "pattern": "桃むように",
+      "replacement": "挑むように",
+      "description": "Perbaikan kanji 挑む"
+    },
+    {
+      "pattern": "Fめられている",
+      "replacement": "褒められている",
+      "description": "Perbaikan kanji 褒められている"
+    },
+    {
+      "pattern": "計正する",
+      "replacement": "訂正する",
+      "description": "Perbaikan kanji 訂正"
+    },
+    {
+      "pattern": "乱めないで",
+      "replacement": "舐めないで",
+      "description": "Perbaikan idiom 舐めないで"
+    }
+  ],
+  "characters": [
+    "鶴崎仁香",
+    "大野愛実",
+    "潮紗理菜",
+    "影山優佳",
+    "加藤史帆",
+    "金村美玖",
+    "河田陽菜",
+    "小坂菜緒",
+    "齊藤京子",
+    "佐々木久美",
+    "佐々木美玲",
+    "高瀬愛奈",
+    "高本彩花",
+    "東村芽依",
+    "富田鈴花",
+    "丹生明里",
+    "濱岸ひより",
+    "松田好花",
+    "宮田愛萌",
+    "渡邉美穂",
+    "上村ひなの",
+    "髙橋未来虹",
+    "森本茉莉",
+    "山口陽世",
+    "石塚瑶季",
+    "岸帆夏",
+    "小西夏菜実",
+    "清水理央",
+    "正源司陽子",
+    "竹内希来里",
+    "平尾帆夏",
+    "平岡海月",
+    "藤嶌果歩",
+    "宮地すみれ",
+    "山下葉留花",
+    "渡辺莉奈"
+  ]
+}

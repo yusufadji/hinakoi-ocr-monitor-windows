@@ -2,3 +2,6 @@ opencv-python
 numpy
 easyocr
 mss
+manga-ocr
+transformers
+rapidfuzz

@@ -1,0 +1,34 @@
+{
+  "monitor_index": 2,
+  "crop_regions": {
+    "subtitle": {
+      "top_ratio": 0.68,
+      "bottom_ratio": 0.93,
+      "left_ratio": 0.06,
+      "right_ratio": 0.94
+    },
+    "nameplate": {
+      "top_ratio": 0.65,
+      "bottom_ratio": 0.72,
+      "left_ratio": 0.06,
+      "right_ratio": 0.28
+    }
+  },
+  "ocr_engine": "easyocr",
+  "fallback_engine": "easyocr",
+  "upscale_factor": 1.6,
+  "change_threshold": 40000,
+  "stability": {
+    "stable_threshold": 1.5,
+    "consecutive_stable_frames": 3,
+    "check_interval": 0.15,
+    "max_wait_seconds": 3.0
+  },
+  "loop_delay": 0.25,
+  "destination": "transcript",
+  "player_name_replacement": {
+    "enabled": true,
+    "source_name": "THEKONZ",
+    "target_placeholder": "PLAYER_NAME"
+  }
+}
